@@ -6,6 +6,9 @@ import PropTypes from 'prop-types';
 
 
 export class Board extends React.Component {
+    constructor(props) {
+        super(props);
+    }
 
     renderRows(rows, cols) {
         let res = [];
